@@ -5,8 +5,8 @@ class Webpage extends React.Component {
   render() {
     return React.createElement('div', {}, [
       React.createElement('title', {}, "The world's coolest webpage"),
-      <FillerText />,
-      <FillerText />
+      React.createElement(FillerText),
+      React.createElement(FillerText)
     ])
   }
 }
